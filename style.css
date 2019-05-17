@@ -1,72 +1,101 @@
-/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
-body{
-    font-family: Source Sans Pro, sans-serif;
-    background-color: #f7f7f7;
-    text-align: center;
+/* write your styles here */
+*{
+    font-family: 'Montserrat', sans-serif;
 }
-#sec-a{
-    background-color: white;
-    border: none;
+body{
+    background-image: url(images/floral.png);
+    margin: 0%;
+}
+
+marquee{
+    background-color: #ed484c;
+    color: white;
+    height: 20px;
+    padding: 5px;
+    font-weight: bold;
 }
 header{
-    width: auto;
-    height: auto;
-    background-color: white;
-    display: inline-block;
-    text-align: left;
-}
-#img-1{
-    width: 60px;
-    height: 50px;
-    position: absolute;
-    left: 0; 
-    
-}
-.head-1{
-    text-align: right;
-    padding:1em;
-    margin-top: -20px;
-    position: absolute;
-    right: 0;
-    
-}
-.catogery{
-    text-decoration: none; 
-    color: black;
-    padding: 1em;
-}
-figcaption{
-    display:inline-block;
-    margin-bottom: 40px;
-    position: absolute;
-}
-#cart-btn{
-    background-color:#ed4b74;
-    font-weight:bold;
-    border: none;
+    background-color: #4c4c4c;
     color: white;
-    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+header img{
+    width: 65px;
     height: 40px;
 }
-h6{
-    font-size: 20px;
+nav ul{
+      display: flex; 
+      flex-direction: row;
 }
-article{
-    border-bottom: 1px solid gray; 
-    text-align: left;
-    margin-left: 40px; 
+li{
+    list-style: none;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 #about{
-    border-bottom: 1px solid gray;
-    text-align: left;
-    margin-left: 40px;
+    background-color:rgba(241,141,151,0.5);
+    width: 100%; 
+    padding: 30px;
+    display: flex; 
+    flex-direction: column;
 }
-figure{
-    border-bottom: 1px solid gray;
-    margin-bottom: 40px;
-    text-align: left;
+p{
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
 }
-footer{
-    text-align: left;
-    margin-left: 40px; 
+#about button{
+    background-color: black;
+    width: 15em;
+    height: 4em;
+    border: none;
+    color: pink;
 }
+#services{
+    background-color: rgba(221, 212, 197, 0.4);
+    display: flex;
+    justify-content: center;
+}
+#services h1{
+    display: flex;
+}
+#portfolio{
+    background-color: rgba(179, 156, 114, 0.4);
+}
+#portfolio div img{
+    width: 250px;
+    height: 180px;
+}
+#contact{
+    background-color: rgba(89, 146, 145, 0.4);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #end{
+    background-color: black;
+    color: white;
+}
+div :hover i{
+    color: red;
+} */
